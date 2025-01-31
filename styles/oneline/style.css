@@ -1,0 +1,9 @@
+#overlay {
+  display: flex;
+  font-family: "Verdana", sans-serif;
+  font-size: 40px;
+  color: #ffffff;
+  text-shadow: 2px 2px #000000;
+  position: absolute;
+  bottom: 0;
+}

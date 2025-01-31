@@ -1,0 +1,8 @@
+#overlay {
+  font-family: "Verdana", sans-serif;
+  font-size: 70px;
+  color: #ffffff;
+  text-shadow: 3px 3px #000000;
+  position: absolute;
+  bottom: 0;
+}

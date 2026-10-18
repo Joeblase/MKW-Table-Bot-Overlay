@@ -6,3 +6,12 @@
   position: absolute;
   bottom: 0;
 }
+
+#overlay [data-line]:empty {
+  display: none;
+}
+
+#overlay .status {
+  font-size: 0.5em;
+  color: #ffcc00;
+}

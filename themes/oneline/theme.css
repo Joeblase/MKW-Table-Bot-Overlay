@@ -1,0 +1,26 @@
+#overlay {
+  display: flex;
+  font-family: "Verdana", sans-serif;
+  font-size: 40px;
+  color: #ffffff;
+  text-shadow: 2px 2px #000000;
+  position: absolute;
+  bottom: 0;
+}
+
+#overlay [data-item] {
+  white-space: pre;
+}
+
+#overlay [data-item]:empty {
+  display: none;
+}
+
+/* Separator between visible items */
+#overlay [data-item]:not(:empty) ~ [data-item]:not(:empty)::before {
+  content: "\00a0| ";
+}
+
+#overlay .status {
+  color: #ffcc00;
+}
